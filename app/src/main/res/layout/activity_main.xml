@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo(a) ao meu App"
+        android:textSize="30sp"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/show_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar"
+            android:layout_margin="8dp"
+            style="@style/GreenButton" />
+
+        <Button
+            android:id="@+id/hide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ocultar"
+            android:layout_margin="8dp"
+            style="@style/RedButton" />
+
+    </LinearLayout>
+
+</LinearLayout>
